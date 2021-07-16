@@ -3,7 +3,13 @@ h2,
 h3,
 h4,
 h5,
-h6,
+h6{
+  margin-top: 0;
+  margin-bottom: 0;
+  font-family: "Titan One", sans-serif;
+  text-transform: uppercase;
+}
+
 p {
   margin-top: 0;
   margin-bottom: 0;
@@ -29,7 +35,5 @@ img {
 }
 body {
   margin: 0;
-  font-family: DM Sans, Titan One, sans-serif;
-  font-size: 16px;
-  color: #000000;
+  font-family:"DM Sans", sans-serif;
 }
