@@ -1,0 +1,31 @@
+.container--header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.header__list {
+  display: none;
+  @media screen and (min-width: 1200px) {
+    display: flex;
+  }
+}
+
+
+.header__item:not(:last-child) {
+  margin-right: 35px;
+}
+.button--header {
+  display: none;
+  @media screen and (min-width: 768px) {
+    display: block;
+  }
+}
+.button-menu {
+  @media screen and (min-width: 768px) {
+    margin-right: 30px;
+    margin-left: auto;
+  }
+  @media screen and (min-width: 1200px) {
+    display: none;
+  }
+}
