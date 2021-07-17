@@ -1,3 +1,8 @@
+
+
+// стили для стандартной кнопки. Нужно перенести в отдельный файл
+
+
 .button {
   display: block;
   text-align: center;
@@ -8,6 +13,7 @@
   border-radius: 22px;
   border-color: transparent;
   cursor: pointer;
+
 }
 .container--header {
   position: relative;
@@ -34,8 +40,8 @@
   margin-right: 35px;
 }
 
-// стили для кнопки в хедере
 
+// стили для кнопки в хедере
 
 .button--header {
   display: none;
@@ -44,7 +50,7 @@
   }
   &:hover, &:focus {
     background-color: var(--hover-color);
-
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   }
 }
 // стили для мобильного меню (переходы)
@@ -60,6 +66,7 @@
 
   transition: transform 750ms cubic-bezier(0.4, 0, 0.2, 1);
 
+
   @media screen and (min-width: 768px) {
     width: 254px;
   }
@@ -71,7 +78,7 @@
 
 }
 
-// стили для стандартной кнопки. Нужно перенести в отдельный файл
+// кнопка КУПИТЬ в мобильном меню
 
 .button--menu {
   width: 209px;
@@ -79,6 +86,13 @@
   margin-right: auto;
   margin-top: 23px;
   margin-bottom: 19px;
+
+  &:hover, &:focus {
+    background-color: var(--hover-color);
+  }
+  
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
   @media screen and (min-width:768px) {
     width: 186px;
   }
@@ -136,7 +150,9 @@
   &:hover .mobile-menu__link,
   &:focus .mobile-menu__link {
     color: var(--red-color);
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   }
+
 }
 
 // стили для списка навигации при разрешении 1200px
@@ -149,4 +165,6 @@
   &:hover, &:focus {
     color: var(--red-color);
   }
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
 }
