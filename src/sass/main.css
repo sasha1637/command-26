@@ -1,3 +1,8 @@
+@charset "UTF-8";
+/*
+ * Главный файл стилей.
+ * Все паршалы подключаются сюда.
+ */
 .about {
   display: block;
   text-align: center;
@@ -5,19 +10,24 @@
   padding-top: 125px;
   padding-bottom: 39px;
 }
+
 @media screen and (min-width: 768px) {
   .about {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
     padding-top: 130px;
     padding-bottom: 66px;
   }
 }
+
 @media screen and (min-width: 1280px) {
   .about {
     padding-top: 125px;
     padding-bottom: 146px;
   }
 }
+
 .about-label {
   font-weight: 400;
   font-size: 18px;
@@ -27,6 +37,7 @@
   margin-bottom: 15px;
   color: #ffa5ba;
 }
+
 .about_title {
   font-weight: 400;
   font-size: 34px;
@@ -36,16 +47,19 @@
   margin-bottom: 26px;
   color: #d41443;
 }
+
 @media screen and (min-width: 768px) {
   .about_title {
     margin-bottom: 50px;
   }
 }
+
 @media screen and (min-width: 1280px) {
   .about_title {
     margin-bottom: 55px;
   }
 }
+
 .about_description {
   font-weight: 500;
   font-size: 12px;
@@ -55,14 +69,17 @@
   text-align: left;
   margin-bottom: 47px;
 }
+
 @media screen and (min-width: 1280px) {
   .about_description {
     margin-bottom: 35px;
   }
 }
+
 .text-color {
   color: #907e82;
 }
+
 .about_button {
   height: 44px;
   text-align: center;
@@ -77,3 +94,4 @@
   background-color: #fff;
   border: transparent;
 }
+/*# sourceMappingURL=main.css.map */
