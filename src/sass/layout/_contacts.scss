@@ -1,0 +1,381 @@
+.visually-hidden {
+  position: absolute;
+  clip: rect(0 0 0 0);
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+
+  white-space: nowrap;
+  clip-path: inset(100%);
+  overflow: hidden;
+}
+
+.locations__list {
+  margin-top: -20px;
+  margin-left: -20px;
+}
+
+@media screen and (min-width: 320px) {
+  .locations__list {
+    margin-bottom: 54px;
+  }
+}
+
+@media screen and (min-width: 772px) {
+  .locations__list {
+    display: flex;
+    margin-bottom: 81px;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .locations__list {
+    display: flex;
+    margin-bottom: 86px;
+    margin-left: -30px;
+  }
+}
+
+.locations__item {
+  margin-top: 20px;
+  margin-left: 20px;
+
+  background: #ffffff;
+  box-shadow: 0px 8px 30px rgba(212, 20, 67, 0.1);
+  border-radius: 24px;
+}
+
+@media screen and (min-width: 320px) {
+  .locations__item {
+    width: calc((100% - 1 * 20px) / 1);
+    padding: 43px 21px 43px 20px;
+  }
+}
+
+@media screen and (min-width: 772px) {
+  .locations__item {
+    width: calc((100% - 3 * 20px) / 3);
+    padding: 50px 32px 50px 31px;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .locations__item {
+    margin-left: 30px;
+    padding: 51px 44px 43px 43px;
+    width: calc((100% - 3 * 30px) / 3);
+  }
+}
+
+.location__category {
+  background-color: #f0d1a5;
+
+  text-align: center;
+  letter-spacing: 0.04em;
+  border-radius: 6px;
+
+  color: #ffffff;
+}
+
+@media screen and (min-width: 320px) {
+  .location__category {
+    width: 80px;
+    margin-bottom: 25px;
+
+    font-size: 12px;
+    line-height: 1.8;
+  }
+}
+
+@media screen and (min-width: 772px) {
+  .location__category {
+    width: 73px;
+    margin-bottom: 30px;
+
+    font-size: 16px;
+    line-height: 1.9;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .location__category {
+    margin-bottom: 32px;
+  }
+}
+
+.location__category.truck {
+  background-color: #c2e297;
+}
+
+@media screen and (min-width: 320px) {
+  .location__category.truck {
+    width: 130px;
+  }
+}
+
+@media screen and (min-width: 772px) {
+  .location__category.truck {
+    width: 138px;
+  }
+}
+
+.location__place {
+  font-family: DM Sans;
+  font-weight: 500;
+
+  color: #000000;
+}
+
+@media screen and (min-width: 320px) {
+  .location__place {
+    margin-bottom: 10px;
+
+    font-size: 12px;
+    line-height: 1.8;
+  }
+}
+
+@media screen and (min-width: 772px) {
+  .location__place {
+    margin-bottom: 14px;
+
+    font-size: 14px;
+    line-height: 1.85;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .location__place {
+    margin-bottom: 10px;
+
+    font-size: 16px;
+    line-height: 1.9;
+  }
+}
+
+.location__text {
+  margin: 0;
+  color: #907e82;
+}
+
+@media screen and (min-width: 320px) {
+  .location__text {
+    font-size: 12px;
+    line-height: 1.5;
+    margin-bottom: 25px;
+  }
+}
+
+@media screen and (min-width: 772px) {
+  .location__text {
+    font-size: 14px;
+    line-height: 1.6;
+    margin-bottom: 30px;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .location__text {
+    font-size: 16px;
+    line-height: 1.8;
+    margin-bottom: 10px;
+  }
+}
+
+.line {
+  margin: 0;
+  border: 1px solid #e1e1e1;
+}
+
+@media screen and (min-width: 320px) {
+  .line {
+    margin-bottom: 25px;
+  }
+}
+
+@media screen and (min-width: 772px) {
+  .line {
+    margin-bottom: 30px;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .line {
+    margin-bottom: 32px;
+  }
+}
+
+.working-time {
+  margin-bottom: 25px;
+}
+
+@media screen and (min-width: 320px) {
+  .working-time {
+    margin-bottom: 25px;
+  }
+}
+
+@media screen and (min-width: 772px) {
+  .working-time {
+    margin-bottom: 30px;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .working-time {
+    margin-bottom: 32px;
+  }
+}
+
+@media screen and (min-width: 320px) {
+  .weekdays {
+    margin-bottom: 10px;
+  }
+}
+
+@media screen and (min-width: 772px) {
+  .working-time {
+    margin-bottom: 16px;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .working-time {
+    margin-bottom: 15px;
+  }
+}
+
+.location__days {
+  color: #000000;
+}
+
+@media screen and (min-width: 320px) {
+  .location__days {
+    font-size: 12px;
+    line-height: 1.8;
+  }
+}
+
+@media screen and (min-width: 772px) {
+  .location__days {
+    font-size: 14px;
+    line-height: 1.85;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .location__days {
+    font-size: 16px;
+    line-height: 1.9;
+  }
+}
+
+.location__time {
+  color: #ffa5ba;
+}
+
+@media screen and (min-width: 320px) {
+  .location__time {
+    font-size: 12px;
+    line-height: 1.8;
+  }
+}
+
+@media screen and (min-width: 772px) {
+  .location__time {
+    font-size: 14px;
+    line-height: 1.85;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .location__time {
+    font-size: 16px;
+    line-height: 1.9;
+  }
+}
+
+.location__link {
+  display: block;
+
+  color: #907e82;
+}
+
+@media screen and (min-width: 320px) {
+  .location__link {
+    font-size: 12px;
+    line-height: 1.5;
+  }
+}
+
+@media screen and (min-width: 772px) {
+  .location__link {
+    font-size: 14px;
+    line-height: 1.85;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .location__link {
+    font-size: 16px;
+    line-height: 1.8;
+  }
+}
+
+@media screen and (min-width: 772px) {
+  .contacts-btns__list {
+    display: flex;
+    justify-content: center;
+  }
+}
+
+.contacts__button {
+  display: block;
+
+  height: 44px;
+
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 1.3;
+  text-align: center;
+
+  color: #ffffff;
+  background-color: #d41342;
+  border-radius: 22px;
+  border: transparent;
+}
+
+@media screen and (min-width: 320px) {
+  .contacts__button {
+    width: 161px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+@media screen and (min-width: 772px) {
+  .contacts__button {
+    width: 191px;
+    margin-right: 14.5px;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .contacts__button {
+    width: 198px;
+    margin-right: 15px;
+  }
+}
+
+.contacts__button.white {
+  color: #d41443;
+  background-color: #ffffff;
+}
+
+@media screen and (max-width: 772px) {
+  .contacts__button.white {
+    margin-top: 10px;
+  }
+}
