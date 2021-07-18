@@ -42,5 +42,8 @@ body {
   margin: 0;
   font-family: 'DM Sans', sans-serif;
   font-style: normal;
-  font-weight: 500;  
+  font-weight: 500;
+  &.menu-open {
+    overflow: hidden;
+  }
 }
