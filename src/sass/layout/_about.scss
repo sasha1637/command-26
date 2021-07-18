@@ -71,10 +71,19 @@
   font-weight: 500;
   font-size: 14px;
   line-height: 1.3;
+<<<<<<< Updated upstream
   letter-spacing: 0, 04em;
   color: var(--red-color);
+=======
+  letter-spacing: 0.04em;
+  width: 176px;
+>>>>>>> Stashed changes
   padding: 0 37px;
   border: transparent;
+  margin: 0 auto;
+}
+.about_button-icon {
+  margin-left: 14px;
 }
 .about_button-icon {
   margin-right: 14px;
