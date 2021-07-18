@@ -12,6 +12,9 @@ h6 {
   margin-top: 0;
   margin-bottom: 0;
   font-family: "Titan One", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  letter-spacing: 0.04em;
   text-transform: uppercase;
 }
 
@@ -42,6 +45,9 @@ img {
 
 body {
   margin: 0;
+  font-family: 'DM Sans', sans-serif;
+  font-style: normal;
+  font-weight: 500;
 }
 
 .container {
@@ -62,10 +68,15 @@ body {
   }
 }
 
-@media screen and (min-width: 1200px) {
+@media screen and (min-width: 1280px) {
   .container {
     width: 1080px;
   }
+}
+
+.section {
+  padding-top: 100px;
+  padding-bottom: 100px;
 }
 
 .button {
@@ -535,6 +546,10 @@ body {
   .about_title {
     margin-bottom: 55px;
   }
+}
+
+.about_picture {
+  margin-bottom: 48px;
 }
 
 .about_description {
