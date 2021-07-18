@@ -1,0 +1,14 @@
+// стили для стандартной кнопки.
+
+.button {
+  display: block;
+  text-align: center;
+  height: 44px;
+  width: 160px;
+  background-color: var(--white-color);
+  color: var(--red-color);
+  border-radius: 22px;
+  border-color: transparent;
+  cursor: pointer;
+
+}
