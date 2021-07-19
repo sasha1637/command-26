@@ -589,7 +589,7 @@ body {
   padding-bottom: 139px;
 }
 
-@media screen and (min-width: 720px) {
+@media screen and (min-width: 768px) {
   .advantages__items {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -603,14 +603,9 @@ body {
     min-width: 180px;
   }
   .advantages__items .advantages__item-title {
-    font-family: Titan One;
-    font-style: normal;
-    font-weight: 400;
     font-size: 48px;
     line-height: 1.15;
     text-align: left;
-    letter-spacing: 0.04em;
-    text-transform: uppercase;
     margin-bottom: 13px;
     color: #d41443;
   }
