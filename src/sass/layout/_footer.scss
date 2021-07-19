@@ -37,19 +37,35 @@
 .footer-social__list {
   display: flex;
   margin-top: 165px;
+  justify-content: flex-end;
 }
 
-.footer-social__item {
+.footer-social__item:not(:last-child) {
   margin-right: 24px;
 }
 
 .footer-social__icon {
   width: 34px;
   height: 34px;
+  fill: #fea5bb;
 }
 
 .footer-address {
   margin-top: 50px;
+}
+
+.footer-address_tel {
+  font-family: DM Sans;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 186%;
+  letter-spacing: 0.02em;
+  color: #d41443;
+}
+
+.footer-address__tel-bold {
+  color: #000000;
 }
 
 .copyrigh {
