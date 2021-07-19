@@ -1,6 +1,16 @@
   <header class="header">
     <div class="container container--header">
-      <a class="header__logo link" href="">LOGO</a>
+      <a class="header__logo link" href="">
+        <picture class="picture">
+          <source srcset="./images/header/logo@1x-desktop.png 1x, ./images/header/logo@2x-desktop.png 2x" media="(min-width: 1280px)">
+
+          <source srcset="./images/header/logo@1x-tablet.png 1x, ./images/header/logo@2x-tablet.png 2x" media="(min-width: 768px)">
+
+          <source srcset="./images/header/logo@1x-mobile.png 1x, ./images/header/logo@2x-mobile.png 2x" media="(max-width: 767px)">
+
+          <img src="./images/header/logo@1x-mobile.png" alt="логотип компании">
+        </picture>
+      </a>
       <nav class="header__nav">
         <ul class="header__list">
           <li class="header__item">
@@ -20,13 +30,17 @@
           </li>
         </ul>
       </nav>
-      <button type="button" class="menu-open">меню</button>
+      <button type="button" class="menu-open">
+        <svg class="icon-open" width="20" height="12">
+          <use href="./images/svg/icons.svg#icon-home"></use>
+        </svg>
+      </button>
       <button type="button" class="button button--header">Buy now</button>
       <div class="mobile-menu is--hidden">
-        <button type="button" class="menu-close">close
-          <!-- <svg>
-            <use ></use>
-          </svg> -->
+        <button type="button" class="menu-close">
+          <svg class="icon-close" width="14" height="14">
+            <use href="./images/svg/icons.svg#icon-close"></use>
+          </svg>
         </button>
         <button type="button" class="button button--menu">Buy now</button>
         <nav class="mobile-menu__nav">
@@ -51,3 +65,6 @@
       </div>
     </div>
   </header>
+  <!-- <svg class="icon" width="20" height="12">
+    <use href="./images/svg/icons.svg#icon-burger"></use>
+  </svg> -->

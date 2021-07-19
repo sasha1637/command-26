@@ -4,17 +4,32 @@
   justify-content: space-between;
   align-items: center;
   padding-top: 6px;
-  padding-bottom: 36px;
-  background-color: var(--header-color);
+  padding-bottom: 27px;
+
+  @media screen and (min-width: 480px) {
+    width: 480px;
+  }
   @media screen and (min-width: 768px) {
     padding-top: 38px;
+    padding-bottom: 0;
+    width: 768px;
+  }
+  @media screen and (min-width: 1280px) {
+    width: 1080px;
   }
 }
 
+.header {
+  position: absolute;
+  z-index: 10;
+  left: 0;
+  right: 0;
+
+}
 
 .header__list {
   display: none;
-  @media screen and (min-width: 1200px) {
+  @media screen and (min-width: 1280px) {
     display: flex;
   }
 }
@@ -46,6 +61,7 @@
   top: 0;
   right: 0;
   overflow: auto;
+  // z-index: 15;
 
   transition: transform 750ms cubic-bezier(0.4, 0, 0.2, 1);
 
@@ -104,7 +120,7 @@
     margin-right: 30px;
     margin-left: auto;
   }
-  @media screen and (min-width: 1200px) {
+  @media screen and (min-width: 1280px) {
     display: none;
   }
 }
@@ -138,7 +154,7 @@
 
 }
 
-// стили для списка навигации при разрешении 1200px
+// стили для списка навигации при разрешении 1280px
 
 .header__link {
   color: var(--white-color);
@@ -151,3 +167,15 @@
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
 }
+
+// Стилизируем иконки для мобильного меню
+
+// .icon-close {
+//   fill: var(--white-color);
+// }
+// .icon-open {
+//   fill: var(--red-color);
+// }
+// .icon {
+//   fill: red;
+// }
