@@ -142,6 +142,9 @@
   }
 }
 .about_button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
   width: 170px;
   font-weight: 500;
   font-size: 14px;
@@ -154,4 +157,8 @@
   .about_button {
     margin: 0;
   }
+}
+.about_button-icon {
+  margin-left: 13px;
+  fill: rgba(212, 20, 67, 1);
 }
