@@ -14,8 +14,13 @@
 
 /* individual */
 .locations__list {
-  margin-top: -20px;
   margin-left: -20px;
+}
+
+@media screen and (max-width: 772px) {
+  .locations__list {
+    margin-top: -20px;
+  }
 }
 
 @media screen and (min-width: 320px) {
@@ -33,14 +38,12 @@
 
 @media screen and (min-width: 1050px) {
   .locations__list {
-    display: flex;
     margin-bottom: 86px;
     margin-left: -30px;
   }
 }
 
 .locations__item {
-  margin-top: 20px;
   margin-left: 20px;
 
   background: #ffffff;
@@ -52,6 +55,7 @@
   .locations__item {
     width: calc((100% - 1 * 20px) / 1);
     padding: 43px 21px 43px 20px;
+    margin-top: 20px;
   }
 }
 
@@ -59,6 +63,7 @@
   .locations__item {
     width: calc((100% - 3 * 20px) / 3);
     padding: 50px 32px 50px 31px;
+    margin-top: 0;
   }
 }
 
@@ -71,18 +76,19 @@
 }
 
 .location__category {
-  background-color: #f0d1a5;
+  display: inline-block;
+  padding: 0 10px;
 
   text-align: center;
   letter-spacing: 0.04em;
   border-radius: 6px;
 
   color: #ffffff;
+  background-color: #f0d1a5;
 }
 
 @media screen and (min-width: 320px) {
   .location__category {
-    width: 80px;
     margin-bottom: 25px;
 
     font-size: 12px;
@@ -92,7 +98,6 @@
 
 @media screen and (min-width: 772px) {
   .location__category {
-    width: 73px;
     margin-bottom: 30px;
 
     font-size: 16px;
@@ -108,18 +113,6 @@
 
 .location__category.truck {
   background-color: #c2e297;
-}
-
-@media screen and (min-width: 320px) {
-  .location__category.truck {
-    width: 130px;
-  }
-}
-
-@media screen and (min-width: 772px) {
-  .location__category.truck {
-    width: 138px;
-  }
 }
 
 .location__place {
@@ -329,6 +322,7 @@
   .contacts-btns__list {
     display: flex;
     justify-content: center;
+    margin-left: -15px;
   }
 }
 
@@ -350,23 +344,22 @@
 
 @media screen and (min-width: 320px) {
   .contacts__button {
-    width: 161px;
     margin-left: auto;
     margin-right: auto;
+    padding: 0 17px;
   }
 }
 
 @media screen and (min-width: 700px) {
   .contacts__button {
-    width: 191px;
-    margin-right: 14.5px;
+    padding: 0 30px;
+    margin-left: 15px;
   }
 }
 
 @media screen and (min-width: 1050px) {
   .contacts__button {
-    width: 198px;
-    margin-right: 15px;
+    padding: 0 35px;
   }
 }
 
@@ -381,7 +374,30 @@
   }
 }
 
+@media screen and (min-width: 320px) {
+  .contacts__button.white {
+    padding: 0 32px;
+  }
+}
+
+@media screen and (min-width: 700px) {
+  .contacts__button.white {
+    padding: 0 38px;
+  }
+}
+
+@media screen and (min-width: 1050px) {
+  .contacts__button.white {
+    padding: 0 39px;
+  }
+}
+
 .contacts__button.white:hover,
 .contacts__button.white:focus {
   background-color: #ecebeb;
+}
+
+.icon-vector {
+  margin-left: 13px;
+  fill: #ffffff;
 }
