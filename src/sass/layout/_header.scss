@@ -97,6 +97,20 @@
   }
 }
 
+// Вешаем backdrop для body когда открыто мобильное меню.
+// Работает через JavaScript
+
+// .backdrop {
+//   // position: fixed;
+//   // top: 0;
+//   // left: 0;
+//   width: 100vw;
+//   height: 100vh;
+//   z-index: 30;
+//   opacity: 0.5;
+//   background-color: var(--copyright-color);
+// }
+
 // стили для кнопок открытия и закрытия мобильного меню
 
 
@@ -124,6 +138,7 @@
     display: none;
   }
 }
+
 
 // стили для списка в мобильном меню
 
@@ -170,12 +185,14 @@
 
 // Стилизируем иконки для мобильного меню
 
-// .icon-close {
-//   fill: var(--white-color);
-// }
-// .icon-open {
-//   fill: var(--red-color);
-// }
-// .icon {
-//   fill: red;
-// }
+.icon-close {
+  fill: var(--white-color);
+}
+.icon-open {
+  fill: var(--red-color);
+}
+
+.button__icon {
+  fill: var(--red-color);
+  margin-left: 12px;
+}
