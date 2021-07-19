@@ -2,21 +2,32 @@
     <div class="container">
         <p class="about-label">tradition and love</p>
         <h2 class="about_title">how it’s made?</h2> 
-        <picture class="about_picture">
-            <source srcset="./images/about/cow@1x-desktop.png 1x, ./images/about/cow@2x-desktop.png 2x" media="(min-width: 1280px)">
-            <source srcset="./images/about/cow@1x-tablet.png 1x, ./images/about/cow@2x-tablet.png 2x" media="(min-width: 768px)">
-            <source srcset="./images/about/cow@1x-mobile.png 1x, ./images/about/cow@2x-mobile.png 2x" media="(max-width: 767px)">
-            <img src="#" alt="cow and jug of milk">
-        </picture>
-        <p class="about_description">Fusce ut velit laoreet, tempus arcu eu, molestie tortor. Nam vel justo cursus, faucibus lorem eget, egestas eros.
-            Maecenas eleifend erat at justo fringilla.</p>
-        <p class="about_description text-color">Curabitur lacinia enim at ex blandit, vel pellentesque odio elementum. Mauris rhoncus orci in imperdiet placerat.
-            Vestibulum euismod nisl suscipit ligula volutpat, a feugiat urna maximus. Cras massa nibh, tincidunt.        
-            Aliquam erat volutpat. Aenean accumsan.</p>
+        <div class="about_section">
+            <picture>
+                <source srcset="./images/about/cow@1x-desktop.png 1x, ./images/about/cow@2x-desktop.png 2x"
+                    media="(min-width: 1280px)">
+                <source srcset="./images/about/cow@1x-tablet.png 1x, ./images/about/cow@2x-tablet.png 2x"
+                    media="(min-width: 768px)">
+                <source srcset="./images/about/cow@1x-mobile.png 1x, ./images/about/cow@2x-mobile.png 2x"
+                    media="(max-width: 767px)">
+                <img src="#" alt="cow and jug of milk" class="about_picture">
+            </picture>
+            <div class="about_text">
+                <p class="about_description first-text">Fusce ut velit laoreet, tempus arcu eu, molestie tortor. Nam vel justo cursus, faucibus
+                    lorem eget, egestas eros.
+                    Maecenas eleifend erat at justo fringilla.</p>
+                <p class="about_description second-text">Curabitur lacinia enim at ex blandit, vel pellentesque odio elementum.
+                    Mauris
+                    rhoncus orci in imperdiet placerat.
+                    Vestibulum euismod nisl suscipit ligula volutpat, a feugiat urna maximus. Cras massa nibh, tincidunt.
+                    <br><br> Aliquam erat volutpat. Aenean accumsan.
+                </p>
             <button type="button" class="about_button button">Read more
                 <svg class="about_button-icon" width="4px" height="8px">
                     <use href=""></use>
-            </svg>
-        </button>
+                </svg>
+            </button>
+        </div>
+        </div>          
     </div>
 </section>
