@@ -15,22 +15,28 @@
     width: 280px;
     height: 485px;
   }
+  .container__card-product:not(:last-child) {
+    margin-bottom: 16px;
+  }
+  .container__list-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
   .products__quality {
     font-family: Titan One;
-    font-style: normal;
     font-weight: 400;
     font-size: 18px;
     line-height: 1.17;
     text-align: center;
     text-transform: uppercase;
-    padding-top: 121px;
     margin-bottom: 15px;
 
     color: #ffa5ba;
   }
   .products__title {
     font-family: Titan One;
-    font-style: normal;
     font-weight: 400;
     font-size: 34px;
     line-height: 1.15;
@@ -44,7 +50,6 @@
 
   .products__name {
     font-family: Titan One;
-    font-style: normal;
     font-weight: 400;
     font-size: 20px;
     line-height: 1.15;
@@ -90,23 +95,27 @@
 @media screen and (min-width: 768px) {
   .container__card-product {
     width: 220px;
+    height: 485px;
+  }
+  .container__card-product:not(:last-child) {
+    margin-right: 20px;
+  }
+  .container__list-card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
   .products__quality {
-    font-family: Titan One;
-    font-style: normal;
     font-weight: 400;
     font-size: 26px;
     line-height: 1.15;
     text-align: center;
     text-transform: uppercase;
-    padding-top: 121px;
     margin-bottom: 15px;
 
     color: #ffa5ba;
   }
   .products__title {
-    font-family: Titan One;
-    font-style: normal;
     font-weight: 400;
     font-size: 48px;
     line-height: 1.14;
@@ -118,8 +127,6 @@
     color: #d41443;
   }
   .products__name {
-    font-family: Titan One;
-    font-style: normal;
     font-weight: 400;
     font-size: 20px;
     line-height: 1.15;
@@ -158,28 +165,26 @@
   }
 }
 
-@media screen and (min-width: 1200px) {
+@media screen and (min-width: 1280px) {
   .container__card-product {
     width: 329px;
     height: 525px;
   }
+  .container__card-product:not(:last-child) {
+    margin-right: 30px;
+  }
   .products__quality {
-    font-family: Titan One;
-    font-style: normal;
     font-weight: 400;
     font-size: 30px;
     line-height: 1.13;
     text-align: center;
     letter-spacing: 0.04em;
     text-transform: uppercase;
-    padding-top: 127px;
     margin-bottom: 15px;
 
     color: #ffa5ba;
   }
   .products__title {
-    font-family: Titan One;
-    font-style: normal;
     font-weight: 400;
     font-size: 58px;
     line-height: 1.14;
@@ -191,8 +196,6 @@
     color: #d41443;
   }
   .products__name {
-    font-family: Titan One;
-    font-style: normal;
     font-weight: 400;
     font-size: 30px;
     line-height: 1.13;

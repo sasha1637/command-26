@@ -12,3 +12,24 @@
   cursor: pointer;
 
 }
+.button-red {
+  display: block;
+  text-align: center;
+  background-color: var(--red-color);
+  color: var(--white-color);
+  border-radius: 22px;
+  border-color: transparent;
+  cursor: pointer;
+}
+
+.button-white {
+  display: block;
+  text-align: center;
+  background-color: var(--white-color);
+  color: var(--red-color);
+  border-radius: 22px;
+  border-color: transparent;
+  cursor: pointer;
+
+}
+
