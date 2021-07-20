@@ -143,6 +143,35 @@
     font-size: 14px;
   }
 }
+.hero__link {
+  text-align: center;
+  display: none;
+  width: 18px;
+  height: 18px;
+  background-color: var(--white-color);
+  border-radius: 50%;
+  @media screen and (min-width: 768px) {
+    display: flex;
+    position: absolute;
+    bottom: 34px;
+    left: 154px;
+    align-items: center;
+    justify-content: center;
+  }
+  @media screen and (min-width: 1280px) {
+    width: 26px;
+    height: 26px;
+    bottom: 56px;
+    left: 218px;
+  }
+}
+.hero__icon__link {
+  fill: var(--red-color);
+  @media screen and (min-width: 1280px) {
+    width: 10px;
+  }
+}
+
 
 // позиционирование картинок и текста
 

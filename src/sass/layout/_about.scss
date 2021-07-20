@@ -8,6 +8,7 @@
   background-repeat: no-repeat;
   background-position: 50% 85%;
   background-size: contain;
+  position: relative;
 }
 @media (min-device-pixel-ratio: 2) and (max-width: 767px),
   (min-resolution: 192dpi) and (max-width: 767px),
@@ -16,9 +17,8 @@
     background-image: url(/images/about/background-milk@2x-mobile.png);
   }
 }
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 768px) and (max-width: 1279px) {
   .about {
-    display: flex;
     padding-top: 130px;
     padding-bottom: 66px;
     background-image: none;
@@ -27,15 +27,12 @@
 @media screen and (min-width: 1280px) {
   .about {
     background-image: url(/images/about/background-milk@1x-desktop.png);
-    padding-top: 125px;
-    padding-bottom: 39px;
-    background-position: 100% 100%;
-    background-size: contain;
+    background-position: 120% 120%;
   }
 }
-@media (min-device-pixel-ratio: 2) and (min-width: 1200px),
-  (min-resolution: 192dpi) and (min-width: 1200px),
-  (min-resolution: 2dppx) and (min-width: 1200px) {
+@media (min-device-pixel-ratio: 2) and (min-width: 1280px),
+  (min-resolution: 192dpi) and (min-width: 1280px),
+  (min-resolution: 2dppx) and (min-width: 1280px) {
   .about {
     background-image: url(/images/about/background-milk@2x-desktop.png);
   }
@@ -59,7 +56,6 @@
   color: var(--circle-color);
 }
 .about_title {
-  font-weight: 400;
   font-size: 34px;
   line-height: 1.15;
   text-transform: uppercase;
@@ -87,24 +83,24 @@
 }
 @media screen and (min-width: 1280px) {
   .about_picture {
-    width: 516px;
+    flex-basis: 516px;
   }
 }
 @media screen and (min-width: 768px) {
   .about_text {
     text-align: left;
-    width: 340px;
+    flex-basis: 340px;
     margin-top: 50px;
   }
 }
 @media screen and (min-width: 1280px) {
   .about_text {
-    width: calc(100% - 516px);
-    padding-left: 74px;
+    flex-basis: 465px;
+    align-self: center;
+    margin-top: 0;
   }
 }
 .about_description {
-  font-weight: 500;
   font-size: 12px;
   line-height: 1.62;
   color: var(--footer-contact-color);
@@ -142,20 +138,19 @@
   }
 }
 .about_button {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  width: 170px;
-  font-weight: 500;
+  width: 176px;
   font-size: 14px;
   line-height: 1.3;
-  letter-spacing: 0, 04em;
   padding: 0 37px;
-  margin: auto;
+
+  &:hover,
+  &:focus {
+    background-color: var(--hover-color);
+  }
 }
-@media screen and (min-width: 768px) {
+@media screen and (max-width: 767px) {
   .about_button {
-    margin: 0;
+    margin: auto;
   }
 }
 .about_button-icon {
