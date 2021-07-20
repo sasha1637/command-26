@@ -2,19 +2,19 @@
   background-image: linear-gradient(to bottom, #ffffff 50%, #fff5f6 50%);
 }
 
-// @media screen and (min-width: 1050px) {
-//   .contacts {
-//     background-image: image-set(
-//         url(../../images/contacts/background-pink@1x-desktop.png) 1x,
-//         url(../../images/contacts/background-pink@2x-desktop.png) 2x
-//       ),
-//       linear-gradient(to bottom, #ffffff 50%, #fff5f6 50%);
+@media screen and (min-width: 1050px) {
+  .contacts {
+    background-image: image-set(
+        url(../../images/contacts/background-pink@1x-desktop.png) 1x,
+        url(../../images/contacts/background-pink@2x-desktop.png) 2x
+      ),
+      linear-gradient(to bottom, #ffffff 50%, #fff5f6 50%);
 
-//     background-repeat: no-repeat;
-//     background-position: center;
-//     background-size: contain;
-//   }
-// }
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+  }
+}
 
 .visually-hidden {
   position: absolute;
