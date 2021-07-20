@@ -14,7 +14,16 @@
   }
 }
 
-
+.hero {
+  margin-bottom: 121px;
+  @media screen and (min-width: 768px) {
+    background-color: var(--header-color);
+    margin-bottom: 122px;
+  }
+  @media screen and (min-width: 1280px) {
+    margin-bottom: 127px;
+  }
+}
 
 // главный заголовок сайта
 
@@ -73,7 +82,7 @@
   }
   @media screen and (min-width: 1280px) {
     top: 108px;
-    right: 347px;
+    right: 333px;
   }
 }
 .hero__ellipse {
