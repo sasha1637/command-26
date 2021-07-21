@@ -10,19 +10,19 @@
   }
 }
 
-@media screen and (min-width: 1050px) {
-  .contacts {
-    background-image: image-set(
-        url(../contacts/background-pink@1x-desktop.png) 1x,
-        url(../contacts/background-pink@2x-desktop.png) 2x
-      ),
-      linear-gradient(to top, #fff5f6, #fff5f6 77%, #ffffff 77%);
+// @media screen and (min-width: 1050px) {
+//   .contacts {
+//     background-image: image-set(
+//         url(../contacts/background-pink@1x-desktop.png) 1x,
+//         url(../contacts/background-pink@2x-desktop.png) 2x
+//       ),
+//       linear-gradient(to top, #fff5f6, #fff5f6 77%, #ffffff 77%);
 
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: contain;
-  }
-}
+//     background-repeat: no-repeat;
+//     background-position: center;
+//     background-size: contain;
+//   }
+// }
 
 .visually-hidden {
   position: absolute;
