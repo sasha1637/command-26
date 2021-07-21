@@ -1,72 +1,89 @@
-<section class="products section" id="product">
+<section class="products section">
     <div class="container">
         <p class="products__quality">100% natural</p>
         <h2 class="products__title">products</h2>
-        <div class="container__list-card">
-            <div class="container__card-product container__card-product_color-one" data-aos="fade-right" data-aos-duration="1500">
-                <picture>
-                    <source
-                        srcset="./images/products/icecream-products@1x-desktop.png 1x, ./images/products/icecream-products@2x-desktop.png 2x"
-                        media="(min-width: 1280px)">
-                    <source
-                        srcset="./images/products/icecream-products@1x-tablet.png 1x, ./images/products/icecream-products@2x-tablet.png 2x"
-                        media="(min-width: 768px)">
-                    <source
-                        srcset="./images/products/icecream-products@1x-mobile.png 1x, ./images/products/icecream-products@1x-mobile.png 2x"
-                        media="(max-width: 767px)">
-                    <img src="#" alt="ice cream">
-                </picture>
-                <h3 class="products__name">ice cream</h3>
-                <div class="products__description-block">
-                    <p class="products__description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-                        incididunt ut labore et. <span class="products__description_addition">dolore magna
-                            aliqua facilisis.</span></p>
-                </div>
-                <button class="products__btn">___</button>
-            </div>
-            <div class="container__card-product container__card-product_color-two" data-aos="fade-up" data-aos-duration="2000">
-                <picture>
-                    <source
-                        srcset="./images/products/icecoffee-products@1x-desktop.png 1x, ./images/products/icecoffee-products@2x-desktop.png 2x"
-                        media="(min-width: 1280px)">
-                    <source
-                        srcset="./images/products/icecoffee-products@1x-tablet.png 1x, ./images/products/icecoffee-products@2x-tablet.png 2x"
-                        media="(min-width: 768px)">
-                    <source
-                        srcset="./images/products/icecoffee-products@1x-mobile.png 1x, ./images/products/icecoffee-products@2x-mobile.png 2x"
-                        media="(max-width: 767px)">
-                    <img src="#" alt="ice coffee">
-                </picture>
-                <h3 class="products__name">ice coffee</h3>
-                <div class="products__description-block">
-                    <p class="products__description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-                        incididunt ut labore et. <span class="products__description_addition">dolore magna
-                            aliqua facilisis.</span></p>
-                </div>
-                <button class="products__btn">___</button>
-            </div>
-            <div class="container__card-product container__card-product_color-three" data-aos="fade-left" data-aos-duration="1500">
-                <picture>
-                    <source
-                        srcset="./images/products/milkshakes-products@1x-desktop.png 1x, ./images/products/milkshakes-products@2x-desktop.png 2x"
-                        media="(min-width: 1280px)">
-                    <source
-                        srcset="./images/products/milkshakes-products@1x-tablet.png 1x, ./images/products/milkshakes-products@2x-tablet.png 2x"
-                        media="(min-width: 768px)">
-                    <source
-                        srcset="./images/products/milkshakes-products@1x-mobile.png 1x, ./images/products/milkshakes-products@2x-mobile.png 2x"
-                        media="(max-width: 767px)">
-                    <img src="#" alt="milkshakes">
-                </picture>
-                <h3 class="products__name">milkshakes</h3>
-                <div class="products__description-block">
-                    <p class="products__description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-                        incididunt ut labore et. <span class="products__description_addition">dolore magna
-                            aliqua facilisis.</span></p>
-                </div>
-                <button class="products__btn">___</button>
-            </div>
-        </div>  
+        <ul class="container__list-card">
+            <li class="container__card-product container__card-product_color-one">
+                    <picture class="container__list-card_item-1">
+                        <source
+                            srcset="./images/products/icecream-products@1x-desktop.png 1x, ./images/products/icecream-products@2x-desktop.png 2x"
+                            media="(min-width: 1280px)">
+                        <source
+                            srcset="./images/products/icecream-products@1x-tablet.png 1x, ./images/products/icecream-products@2x-tablet.png 2x"
+                            media="(min-width: 768px)">
+                        <source
+                            srcset="./images/products/icecream-products@1x-mobile.png 1x, ./images/products/icecream-products@1x-mobile.png 2x"
+                            media="(max-width: 767px)">
+                        <img src="#" alt="ice cream">
+                    </picture>
+                    <h3 class="products__name">ice cream</h3>
+                    <ul class="products__name_list-markers">
+                        <li class="products__name_markers"></li>
+                        <li class="products__name_markers"></li>
+                        <li class="products__name_markers"></li>
+                    </ul>
+                    <div class="products__description-block">
+                        <p class="products__description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                            incididunt ut labore et. <span class="products__description_addition">dolore magna
+                                aliqua facilisis.</span></p>
+                    </div>
+                    <button class="products__btn">
+                        <svg class="icon-btn">
+                            <use href=""></use>
+                        </svg>
+                    </button>
+            </li>
+            <li class="container__card-product container__card-product_color-two">
+                    <picture class="container__list-card_item-2">
+                        <source
+                            srcset="./images/products/icecoffee-products@1x-desktop.png 1x, ./images/products/icecoffee-products@2x-desktop.png 2x"
+                            media="(min-width: 1280px)">
+                        <source
+                            srcset="./images/products/icecoffee-products@1x-tablet.png 1x, ./images/products/icecoffee-products@2x-tablet.png 2x"
+                            media="(min-width: 768px)">
+                        <source
+                            srcset="./images/products/icecoffee-products@1x-mobile.png 1x, ./images/products/icecoffee-products@2x-mobile.png 2x"
+                            media="(max-width: 767px)">
+                        <img src="#" alt="ice coffee">
+                    </picture>
+                    <h3 class="products__name">ice coffee</h3>
+                    <div class="products__description-block">
+                        <p class="products__description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                            incididunt ut labore et. <span class="products__description_addition">dolore magna
+                                aliqua facilisis.</span></p>
+                    </div>
+                    <button class="products__btn">
+                        <svg class="icon-btn">
+                            <use href=""></use>
+                        </svg>
+                    </button>
+            </li>
+            <li class="container__card-product container__card-product_color-three">
+                    <picture class="container__list-card_item-3">
+                        <source
+                            srcset="./images/products/milkshakes-products@1x-desktop.png 1x, ./images/products/milkshakes-products@2x-desktop.png 2x"
+                            media="(min-width: 1280px)">
+                        <source
+                            srcset="./images/products/milkshakes-products@1x-tablet.png 1x, ./images/products/milkshakes-products@2x-tablet.png 2x"
+                            media="(min-width: 768px)">
+                        <source
+                            srcset="./images/products/milkshakes-products@1x-mobile.png 1x, ./images/products/milkshakes-products@2x-mobile.png 2x"
+                            media="(max-width: 767px)">
+                        <img src="#" alt="milkshakes">
+                    </picture>
+                    <h3 class="products__name">milkshakes</h3>
+                    <div class="products__description-block">
+                        <p class="products__description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                            incididunt ut labore et. <span class="products__description_addition">dolore magna
+                                aliqua facilisis.</span></p>
+                    </div>
+                    <button class="products__btn">
+                        <svg class="icon-btn">
+                            <use href=""></use>
+                        </svg>
+                    </button>
+            </li>
+        </ul> 
     </div>
 </section>
  
