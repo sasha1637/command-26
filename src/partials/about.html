@@ -3,7 +3,7 @@
         <p class="about-label">tradition and love</p>
         <h2 class="about_title">how it’s made?</h2> 
         <div class="about_section">
-            <picture>
+            <picture data-aos="fade-right" data-aos-duration="1500">
                 <source srcset="./images/about/cow@1x-desktop.png 1x, ./images/about/cow@2x-desktop.png 2x"
                     media="(min-width: 1280px)">
                 <source srcset="./images/about/cow@1x-tablet.png 1x, ./images/about/cow@2x-tablet.png 2x"
@@ -13,15 +13,15 @@
                 <img src="#" alt="cow and jug of milk" class="about_picture">
             </picture>
             <div class="about_text">
-                <p class="about_description first-text">Fusce ut velit laoreet, tempus arcu eu, molestie tortor. Nam vel justo cursus, faucibus
+                <p class="about_description first-text" data-aos="fade-left" data-aos-duration="1500">Fusce ut velit laoreet, tempus arcu eu, molestie tortor. Nam vel justo cursus, faucibus
                     lorem eget, egestas eros.
                     Maecenas eleifend erat at justo fringilla.</p>
-                <p class="about_description second-text">Curabitur lacinia enim at ex blandit, vel pellentesque odio elementum.
+                <p class="about_description second-text"data-aos="fade-left" data-aos-duration="1500">Curabitur lacinia enim at ex blandit, vel pellentesque odio elementum.
                     Mauris
                     rhoncus orci in imperdiet placerat.
                     Vestibulum euismod nisl suscipit ligula volutpat, a feugiat urna maximus. Cras massa nibh, tincidunt.
                     <br><br> Aliquam erat volutpat. Aenean accumsan.</p>
-                <button type="button" class="about_button button">Read more
+                <button type="button" class="about_button button" data-aos="fade-up" data-modal-open>Read more
                     <svg class="about_button-icon" width="8px" height="8px">
                         <use href="./images/svg/sprite-project.svg#vector"></use>
                     </svg>
@@ -30,3 +30,22 @@
         </div>          
     </div>
 </section>
+<div class="backdrop is-hidden" data-modal>
+    <div class="modal">
+        <button class="modal__close-button button" type="button" data-modal-close>
+            <svg width="14px" height="14px">
+                <use href="./images/svg/sprite-project.svg#icon-close"></use>
+            </svg>
+        </button>
+        <form action="#" class="modal-form">
+            <p class="modal-form__head">how it’s made?</p>
+            <p class="modal-form_text first-text">Fusce ut velit laoreet, tempus arcu eu, molestie tortor. Nam vel justo cursus, faucibus lorem eget, egestas eros. Maecenas eleifend erat at justo fringilla.</p>
+            <p class="modal-form_text first-text">Curabitur lacinia enim at ex blandit, vel pellentesque odio elementum. Mauris rhoncus orci in imperdiet placerat.
+            Vestibulum euismod nisl suscipit ligula volutpat, a feugiat urna maximus. Cras massa nibh, tincidunt.
+            Aliquam erat volutpat. Aenean accumsan.</p>
+            <p class="modal-form_text first-text">Curabitur lacinia enim at ex blandit, vel pellentesque odio elementum. Mauris rhoncus orci in imperdiet placerat.
+            Vestibulum euismod nisl suscipit ligula volutpat, a feugiat urna maximus. Cras massa nibh, tincidunt.Aliquam erat volutpat. Aenean accumsan.Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora, quisquam blanditiis voluptas nisi quod repudiandae dolores asperiores maiores molestias adipisci quo similique cum illo reiciendis consequuntur commodi praesentium officia odit. Officiis sit quis dolor repellendus dolorum sequi a, nisi veritatis quo dicta ratione dolores velit esse odio quisquam nostrum assumenda suscipit harum soluta dolore officia minus architecto? Alias vel et ipsam, molestias amet culpa dolore molestiae voluptatibus adipisci illo voluptatem laborum nam modi sapiente quos beatae totam eligendi. Quisquam, commodi explicabo? Nobis fugiat ut in, ipsum, possimus ducimus non expedita accusamus doloremque rerum quas maxime mollitia cum quaerat molestias repellendus!</p>
+        </form>
+    </div>
+</div>
+<script src="./js/modal.js"></script>
