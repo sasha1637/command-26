@@ -1,3 +1,5 @@
+// section about //
+
 .about {
   display: block;
   text-align: center;
@@ -156,4 +158,72 @@
 .about_button-icon {
   margin-left: 13px;
   fill: rgba(212, 20, 67, 1);
+}
+
+// modal window  //
+
+.backdrop {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 300;
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+.is-hidden {
+  opacity: 0;
+  pointer-events: none;
+  visibility: hidden;
+}
+
+.modal {
+  position: absolute;
+  width: 280px;
+  height: 500px;
+  background-color: var(--main-color);
+  border-radius: 4px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-image: url(/images/about/background-milk@1x-mobile.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  overflow: auto;
+}
+@media screen and (min-width: 768px) {
+  .modal {
+    width: 500px;
+    height: 600px;
+  }
+}
+.modal__close-button {
+  position: absolute;
+  top: 14px;
+  right: 14px;
+  width: 30px;
+  height: 30px;
+  padding: 0;
+  background-color: var(--main-color);
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 1px rgba(0, 0, 0, 0.14),
+    0 2px 1px rgba(0, 0, 0, 0.2);
+}
+.modal-form {
+  padding: 40px;
+}
+.modal-form__head {
+  font-family: Titan One;
+  font-size: 19px;
+  line-height: 1.15;
+  text-transform: uppercase;
+  margin-bottom: 25px;
+  color: var(--circle-color);
+  text-align: center;
+}
+.modal-form_text {
+  margin: 0;
+  text-indent: 5%;
+  font-size: 14px;
+  line-height: 1.89;
 }
