@@ -233,7 +233,7 @@
 
 // стили и позиционирование псевдоэлементов и текста
 
-.advantages {
+.advantage {
   display: none;
 @media screen and (min-width: 768px) {
   display: block;
@@ -247,7 +247,7 @@
 }
 }
 
-.advantages__title {
+.advantage__title {
   color: var(--red-color);
   font-size: 28px;
   font-weight: 400;
@@ -258,7 +258,7 @@
   }
 
 }
-.advantages__text {
+.advantage__text {
   color: var(--white-color);
   font-size: 8px;
   font-weight: 400;
@@ -268,7 +268,7 @@
     font-size: 14px;
   }
 }
-.advantages__cafe {
+.advantage__cafe {
   margin-bottom: 13px;
   width: 43px;
   height: 44px;
@@ -298,7 +298,7 @@
 }
 }
 
-.advantages__track {
+.advantage__track {
   width: 51px;
   height: 43px;
 
