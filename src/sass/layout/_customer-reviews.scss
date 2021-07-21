@@ -22,12 +22,14 @@ button:hover {
 @media screen and (min-width: 1280px) {
     .customer-reviews_slide {
       width: 926px;
+      text-align: center;
     }
 }
 
 .customer-reviews_img{
     width: 85px;
     height: 85px;
+    margin: 0 auto;
 }
 
 .customer-reviews_text ::before {
@@ -75,7 +77,7 @@ button:hover {
     .customer-reviews_text{
         font-size: 12px;
         line-height: 2.5;
-        padding-top: 30px;
+        padding-top: 43px;
         padding-left: 50px;
         padding-right: 50px;
         padding-bottom: 20px;
@@ -86,7 +88,7 @@ button:hover {
     .customer-reviews_text{
         font-size: 14px;
         line-height: 2;
-        padding-top: 30px;
+        padding-top: 47px;
         padding-left: 36px;
         padding-right: 60px;
         padding-bottom: 28px;
@@ -97,7 +99,7 @@ button:hover {
     .customer-reviews_text{
         font-size: 16px;
         line-height: 1.88;
-        padding-top: 32px;
+        padding-top: 47px;
         padding-left: 59px;
         padding-right: 54px;
         padding-bottom: 32px;
@@ -204,3 +206,30 @@ button:hover {
     border-radius: 0;
     opacity: 1;
 }
+
+.customer-reviews{
+    padding-top: 123px;
+    padding-bottom: 162px;
+}
+
+@media screen and (max-width: 767px) {
+    .customer-reviews{
+        padding-top: 80px;
+        padding-bottom: 116px;
+    }
+}
+ 
+@media screen and (min-width: 768px) {
+    .customer-reviews{
+        padding-top: 121px;
+        padding-bottom: 149px;
+    }
+}
+
+@media screen and (min-width: 1280px) {
+    .customer-reviews{
+        padding-top: 123px;
+        padding-bottom: 162px;
+    }
+}
+
