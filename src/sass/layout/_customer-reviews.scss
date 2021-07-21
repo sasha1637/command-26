@@ -1,0 +1,206 @@
+button:hover {
+    background:#FAFAFA; ;
+}
+
+.customer-reviews_slide{
+    text-align: center;
+    margin: 0 auto;
+}
+
+@media screen and (max-width: 767px) {
+    .customer-reviews_slide {
+        width: 280px;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .customer-reviews_slide {
+      width: 620px;
+    }
+}
+  
+@media screen and (min-width: 1280px) {
+    .customer-reviews_slide {
+      width: 926px;
+    }
+}
+
+.customer-reviews_img{
+    width: 85px;
+    height: 85px;
+}
+
+.customer-reviews_text ::before {
+    position: absolute;
+    content: url(../images/customer-reviews/sign.png);
+    color: #E1E1E1;
+    width: 54px;
+    height: 40px;
+
+}
+
+@media screen and (max-width: 767px) {
+    .customer-reviews_text ::before{
+        top: 28px;
+        left: 60px; 
+   }
+}
+
+@media screen and (min-width: 768px) {
+    .customer-reviews_text ::before{
+        top: 30px;
+        left: 40px;
+    }
+}
+ 
+@media screen and (min-width: 1280px) {
+    .customer-reviews_text ::before{
+        top: 32px;
+        left: 50px;
+    }
+}
+
+
+.customer-reviews_text{
+    letter-spacing: 0.04em;
+    font-weight: 500;
+    background-color: #FAFAFA;
+    position: relative;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    color: #000000;
+}
+
+@media screen and (max-width: 767px) {
+    .customer-reviews_text{
+        font-size: 12px;
+        line-height: 2.5;
+        padding-top: 30px;
+        padding-left: 50px;
+        padding-right: 50px;
+        padding-bottom: 20px;
+   }
+}
+
+@media screen and (min-width: 768px) {
+    .customer-reviews_text{
+        font-size: 14px;
+        line-height: 2;
+        padding-top: 30px;
+        padding-left: 36px;
+        padding-right: 60px;
+        padding-bottom: 28px;
+    }
+}
+ 
+@media screen and (min-width: 1280px) {
+    .customer-reviews_text{
+        font-size: 16px;
+        line-height: 1.88;
+        padding-top: 32px;
+        padding-left: 59px;
+        padding-right: 54px;
+        padding-bottom: 32px;
+   }
+}
+
+
+.customer-reviews_gradient{ 
+    padding-left: 28px;
+    padding-right: 35px;
+    height: 100%;
+}
+
+@media screen and (max-width: 767px) {
+    .customer-reviews_gradient{
+        background-image: repeating-linear-gradient( #FAFAFA 0px, #FAFAFA 29px, #E1E1E1 29px, #E1E1E1 30px);
+   }
+}
+
+@media screen and (min-width: 768px) {
+    .customer-reviews_gradient{
+        background-image: repeating-linear-gradient( #FAFAFA 0, #FAFAFA 27px, #E1E1E1 27px, #E1E1E1 28px);
+   }
+}
+ 
+@media screen and (min-width: 1280px) {
+    .customer-reviews_gradient{
+        background-image: repeating-linear-gradient( #FAFAFA 0, #FAFAFA 29px, #E1E1E1 29px, #E1E1E1 30px);
+   }
+}
+
+.customer-reviews_list-pink, .customer-reviews_list{
+    display: flex;
+    list-style-type: none;
+    align-items: center;
+    justify-content: center;
+    padding-left: 0px;  
+}
+
+
+.customer-reviews_list-pink li:before{
+    display: block;
+    content: "";
+    background-color: #D31342;
+    border-radius: 50%;
+    padding-right: 4px;
+    padding-bottom: 4px;
+}
+
+.customer-reviews_list-pink li:not(:last-child){
+    margin-right: 10px;
+}
+
+.customer-reviews_item:not(:last-child){
+    margin-right: 18px;
+}
+
+.customer-reviews_btn{
+    width: 12px; 
+    height: 12px;
+    border-radius: 50%;
+    font-size:0;
+    color: #D9D9D9;
+    border: 0px;
+}
+
+.customer-reviews_name{
+    margin-top: 15px;
+    margin-bottom: 26px;
+    font-family: DM Sans;
+    font-weight: 500;
+    line-height: 1.8;
+    color: #000000;
+}
+
+@media screen and (max-width: 767px) {
+    .customer-reviews_name{
+        font-size: 14px;
+   }
+}
+
+@media screen and (min-width: 768px) {
+    .customer-reviews_name{
+        font-size: 16px;
+   }
+}
+ 
+@media screen and (min-width: 1280px) {
+    .customer-reviews_name{
+        font-size: 20px;
+   }
+}
+
+@media screen and (max-width: 1199px) {
+    .splide__arrow{
+        display: none;
+   }
+}
+
+.splide__pagination__page.is-active{width: 12.4px;
+    height: 12px;
+    background: url(../images/customer-reviews/home.svg) 50% 50% no-repeat;
+    border: 0;
+    border-radius: 0;
+    opacity: 1;
+}
