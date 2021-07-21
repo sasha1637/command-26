@@ -12,17 +12,39 @@
 }
 @media screen and (max-width: 767px) {
   .container__card-product {
+    position: relative;
     width: 280px;
     height: 485px;
   }
   .container__card-product:not(:last-child) {
-    margin-bottom: 16px;
+    margin-bottom: 130px;
   }
   .container__list-card {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+  }
+  .container__list-card_item-1 {
+    content: '';
+    position: absolute;
+    transform-origin: center;
+    top: -23.5%;
+    left: 5.5%;
+  }
+  .container__list-card_item-2 {
+    content: '';
+    position: absolute;
+    transform-origin: center;
+    top: -23.5%;
+    left: 5.5%;
+  }
+  .container__list-card_item-3 {
+    content: '';
+    position: absolute;
+    transform-origin: center;
+    top: -23.4%;
+    left: 5.5%;
   }
   .products__quality {
     font-family: Titan One;
@@ -43,7 +65,7 @@
     text-align: center;
     letter-spacing: 0.04em;
     text-transform: uppercase;
-    margin-bottom: 31px;
+    margin-bottom: 144px;
 
     color: #d41443;
   }
@@ -56,23 +78,26 @@
     text-align: center;
     letter-spacing: 0.04em;
     text-transform: uppercase;
+    padding-top: 152px;
+    margin-bottom: 66px;
 
     color: #ffffff;
   }
-  //   .products__name::after {
-  //     content: '';
-  //     border: 1px solid #ffffff;
-  //     transform: rotate(180deg);
-  //     width: 26px;
-  //     height: 6px;
-  //   }
+  .products__name_list-markers {
+    text-align: center;
+  }
+  .products__name_markers::before {
+    content: '';
+    width: 6px;
+    height: 6px;
+    border-radius: 50%;
+    border: transparent;
+    background-color: #ffffff;
+  }
   .products__description-block {
     width: 200px;
-    height: 124px;
     margin: 0 auto;
     margin-bottom: 30px;
-    padding-left: 10px;
-    padding-right: 10px;
   }
   .products__description {
     font-family: DM Sans;
@@ -86,14 +111,28 @@
     color: #ffffff;
   }
   .products__btn {
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
     width: 40px;
     height: 40px;
+    padding: 0px;
     margin-bottom: 40px;
+    border-radius: 50%;
+    border: transparent;
+    background-color: #ffffff;
+  }
+  .icon-btn {
+    display: flex;
+    margin: auto;
+    width: 20px;
+    height: 20px;
   }
 }
 
 @media screen and (min-width: 768px) {
   .container__card-product {
+    position: relative;
     width: 220px;
     height: 485px;
   }
@@ -105,7 +144,35 @@
     justify-content: center;
     align-items: center;
   }
+
+  .container__list-card_item-1 {
+    content: '';
+    position: absolute;
+    transform-origin: center;
+    top: -21.2%;
+  }
+  .container__list-card_item-2 {
+    content: '';
+    position: absolute;
+    transform-origin: center;
+    top: -22.5%;
+  }
+  .container__list-card_item-3 {
+    content: '';
+    position: absolute;
+    transform-origin: center;
+    top: -20.6%;
+  }
+
+  // .container__card-product::before {
+  //   content: '';
+  //   position: absolute;
+  //   background-image: url('../images/products/icecream-products@1x-desktop.png');
+  //   background-position: 50% 50%;
+  //   background-repeat: no-repeat;
+  // }
   .products__quality {
+    font-family: Titan One;
     font-weight: 400;
     font-size: 26px;
     line-height: 1.15;
@@ -122,7 +189,7 @@
     text-align: center;
     letter-spacing: 0.04em;
     text-transform: uppercase;
-    margin-bottom: 39px;
+    margin-bottom: 150px;
 
     color: #d41443;
   }
@@ -133,6 +200,8 @@
     text-align: center;
     letter-spacing: 0.04em;
     text-transform: uppercase;
+    padding-top: 152px;
+    margin-bottom: 66px;
 
     color: #ffffff;
   }
@@ -158,10 +227,22 @@
     font-size: 0;
   }
   .products__btn {
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
     width: 40px;
     height: 40px;
     margin-bottom: 40px;
     padding: 0px;
+    border-radius: 50%;
+    border: transparent;
+    background-color: #ffffff;
+  }
+  .icon-btn {
+    display: flex;
+    margin: auto;
+    width: 20px;
+    height: 20px;
   }
 }
 
@@ -172,6 +253,24 @@
   }
   .container__card-product:not(:last-child) {
     margin-right: 30px;
+  }
+  .container__list-card_item-1 {
+    content: '';
+    position: absolute;
+    transform-origin: center;
+    top: -39%;
+  }
+  .container__list-card_item-2 {
+    content: '';
+    position: absolute;
+    transform-origin: center;
+    top: -38.7%;
+  }
+  .container__list-card_item-3 {
+    content: '';
+    position: absolute;
+    transform-origin: center;
+    top: -39%;
   }
   .products__quality {
     font-weight: 400;
@@ -191,7 +290,7 @@
     text-align: center;
     letter-spacing: 0.06em;
     text-transform: uppercase;
-    margin-bottom: 49px;
+    margin-bottom: 259px;
 
     color: #d41443;
   }
@@ -202,6 +301,7 @@
     text-align: center;
     letter-spacing: 0.04em;
     text-transform: uppercase;
+    padding-top: 163px;
 
     color: #ffffff;
   }
@@ -209,7 +309,7 @@
     width: 241px;
     height: 106px;
     margin: 0 auto;
-    margin-bottom: 30px;
+    margin-bottom: 62px;
   }
   .products__description {
     font-family: DM Sans;
@@ -223,8 +323,20 @@
     color: #ffffff;
   }
   .products__btn {
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
     width: 40px;
     height: 40px;
     margin-bottom: 50px;
+    border-radius: 50%;
+    border: transparent;
+    background-color: #ffffff;
+  }
+  .icon-btn {
+    display: flex;
+    margin: auto;
+    width: 20px;
+    height: 20px;
   }
 }
