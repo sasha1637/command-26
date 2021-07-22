@@ -1,28 +1,46 @@
 @media screen and (min-width: 320px) {
+  .contacts.section {
+    padding-bottom: 113px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .contacts.section {
+    padding-bottom: 158px;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .contacts.section {
+    padding-bottom: 165px;
+  }
+}
+
+@media screen and (min-width: 320px) {
   .contacts {
     background-image: linear-gradient(to top, #fff5f6, #fff5f6 89%, #ffffff 89%);
   }
 }
 
-@media screen and (min-width: 772px) {
+@media screen and (min-width: 768px) {
   .contacts {
     background-image: linear-gradient(to top, #fff5f6, #fff5f6 79%, #ffffff 79%);
   }
 }
 
-// @media screen and (min-width: 1050px) {
-//   .contacts {
-//     background-image: image-set(
-//         url(../contacts/background-pink@1x-desktop.png) 1x,
-//         url(../contacts/background-pink@2x-desktop.png) 2x
-//       ),
-//       linear-gradient(to top, #fff5f6, #fff5f6 77%, #ffffff 77%);
+@media screen and (min-width: 1280px) {
+  .contacts {
+    background-image: image-set(
+        url(../images/contacts/background-pink@1x-desktop.png) 1x,
+        url(../images/contacts/background-pink@2x-desktop.png) 2x
+      ),
+      linear-gradient(to top, #fff5f6, #fff5f6 77%, #ffffff 77%);
 
-//     background-repeat: no-repeat;
-//     background-position: center;
-//     background-size: contain;
-//   }
-// }
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+  }
+}
 
 .visually-hidden {
   position: absolute;
@@ -42,7 +60,7 @@
   margin-left: -20px;
 }
 
-@media screen and (max-width: 772px) {
+@media screen and (max-width: 768px) {
   .locations__list {
     margin-top: -20px;
   }
@@ -54,14 +72,14 @@
   }
 }
 
-@media screen and (min-width: 772px) {
+@media screen and (min-width: 768px) {
   .locations__list {
     display: flex;
     margin-bottom: 81px;
   }
 }
 
-@media screen and (min-width: 1050px) {
+@media screen and (min-width: 1280px) {
   .locations__list {
     margin-left: -30px;
     margin-bottom: 86px;
@@ -84,7 +102,7 @@
   }
 }
 
-@media screen and (min-width: 772px) {
+@media screen and (min-width: 768px) {
   .locations__item {
     width: calc((100% - 3 * 20px) / 3);
     padding: 50px 32px 50px 31px;
@@ -92,7 +110,7 @@
   }
 }
 
-@media screen and (min-width: 1050px) {
+@media screen and (min-width: 1280px) {
   .locations__item {
     margin-left: 30px;
     padding: 51px 44px 43px 43px;
@@ -121,7 +139,7 @@
   }
 }
 
-@media screen and (min-width: 772px) {
+@media screen and (min-width: 768px) {
   .location__category {
     margin-bottom: 30px;
 
@@ -130,7 +148,7 @@
   }
 }
 
-@media screen and (min-width: 1050px) {
+@media screen and (min-width: 1280px) {
   .location__category {
     margin-bottom: 32px;
   }
@@ -157,7 +175,7 @@
   }
 }
 
-@media screen and (min-width: 772px) {
+@media screen and (min-width: 768px) {
   .location__place {
     margin-bottom: 14px;
 
@@ -166,7 +184,7 @@
   }
 }
 
-@media screen and (min-width: 1050px) {
+@media screen and (min-width: 1280px) {
   .location__place {
     margin-bottom: 10px;
 
@@ -188,7 +206,7 @@
   }
 }
 
-@media screen and (min-width: 772px) {
+@media screen and (min-width: 768px) {
   .location__text {
     font-size: 14px;
     line-height: 1.6;
@@ -196,7 +214,7 @@
   }
 }
 
-@media screen and (min-width: 1050px) {
+@media screen and (min-width: 1280px) {
   .location__text {
     font-size: 16px;
     line-height: 1.8;
@@ -215,13 +233,13 @@
   }
 }
 
-@media screen and (min-width: 772px) {
+@media screen and (min-width: 768px) {
   .line {
     margin-bottom: 30px;
   }
 }
 
-@media screen and (min-width: 1050px) {
+@media screen and (min-width: 1280px) {
   .line {
     margin-bottom: 32px;
   }
@@ -237,13 +255,13 @@
   }
 }
 
-@media screen and (min-width: 772px) {
+@media screen and (min-width: 768px) {
   .working-time {
     margin-bottom: 30px;
   }
 }
 
-@media screen and (min-width: 1050px) {
+@media screen and (min-width: 1280px) {
   .working-time {
     margin-bottom: 32px;
   }
@@ -255,13 +273,13 @@
   }
 }
 
-@media screen and (min-width: 772px) {
+@media screen and (min-width: 768px) {
   .working-time {
     margin-bottom: 16px;
   }
 }
 
-@media screen and (min-width: 1050px) {
+@media screen and (min-width: 1280px) {
   .working-time {
     margin-bottom: 15px;
   }
@@ -278,14 +296,14 @@
   }
 }
 
-@media screen and (min-width: 772px) {
+@media screen and (min-width: 768px) {
   .location__days {
     font-size: 14px;
     line-height: 1.85;
   }
 }
 
-@media screen and (min-width: 1050px) {
+@media screen and (min-width: 1280px) {
   .location__days {
     font-size: 16px;
     line-height: 1.9;
@@ -303,14 +321,14 @@
   }
 }
 
-@media screen and (min-width: 772px) {
+@media screen and (min-width: 768px) {
   .location__time {
     font-size: 14px;
     line-height: 1.85;
   }
 }
 
-@media screen and (min-width: 1050px) {
+@media screen and (min-width: 1280px) {
   .location__time {
     font-size: 16px;
     line-height: 1.9;
@@ -330,21 +348,21 @@
   }
 }
 
-@media screen and (min-width: 772px) {
+@media screen and (min-width: 768px) {
   .location__link {
     font-size: 14px;
     line-height: 1.85;
   }
 }
 
-@media screen and (min-width: 1050px) {
+@media screen and (min-width: 1280px) {
   .location__link {
     font-size: 16px;
     line-height: 1.8;
   }
 }
 
-@media screen and (min-width: 772px) {
+@media screen and (min-width: 768px) {
   .contacts-btns__list {
     display: flex;
     justify-content: center;
@@ -378,14 +396,14 @@
   }
 }
 
-@media screen and (min-width: 700px) {
+@media screen and (min-width: 768px) {
   .contacts__button {
     padding: 0 30px;
     margin-left: 15px;
   }
 }
 
-@media screen and (min-width: 1050px) {
+@media screen and (min-width: 1280px) {
   .contacts__button {
     padding: 0 35px;
   }
@@ -396,7 +414,7 @@
   background-color: #ffffff;
 }
 
-@media screen and (max-width: 772px) {
+@media screen and (max-width: 767px) {
   .contacts__button.white {
     margin-top: 10px;
   }
@@ -408,13 +426,13 @@
   }
 }
 
-@media screen and (min-width: 700px) {
+@media screen and (min-width: 768px) {
   .contacts__button.white {
     padding: 0 38px;
   }
 }
 
-@media screen and (min-width: 1050px) {
+@media screen and (min-width: 1280px) {
   .contacts__button.white {
     padding: 0 39px;
   }
