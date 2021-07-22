@@ -18,13 +18,13 @@
 
 @media screen and (min-width: 320px) {
   .contacts {
-    background-image: linear-gradient(to top, #fff5f6, #fff5f6 89%, #ffffff 89%);
+    background-image: linear-gradient(to top, #fff5f6, #fff5f6 95%, #ffffff 95%);
   }
 }
 
 @media screen and (min-width: 768px) {
   .contacts {
-    background-image: linear-gradient(to top, #fff5f6, #fff5f6 79%, #ffffff 79%);
+    background-image: linear-gradient(to top, #fff5f6, #fff5f6 91%, #ffffff 91%);
   }
 }
 
@@ -35,6 +35,7 @@
         url(../images/contacts/background-pink@2x-desktop.png) 2x
       ),
       linear-gradient(to top, #fff5f6, #fff5f6 77%, #ffffff 77%);
+
 
     background-repeat: no-repeat;
     background-position: center;

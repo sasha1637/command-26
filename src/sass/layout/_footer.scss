@@ -1,4 +1,4 @@
-//  480px, 768px, 1280px....
+//  480px, 768px, 1280px.
 
 .footer {
   background-color: var(--main-color);
@@ -77,9 +77,8 @@
 }
 
 .footer-social {
-  // margin-top: 43px;
-  @media screen and (min-width: 768px) {
-    // margin-top: 165px;
+  @media screen and (max-width: 767px) {
+    margin-top: 43px;
   }
 }
 
