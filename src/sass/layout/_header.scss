@@ -125,6 +125,9 @@
   @media screen and (min-width: 768px) {
     margin-right: 34px;
   }
+  &:hover, &:focus {
+    background: none;
+  }
 }
 .menu-open {
   padding: 0;
