@@ -44,7 +44,7 @@
 
 .modal-close-btn:focus,
 .modal-close-btn:hover {
-  fill: #2196f3;
+  fill: red;
 }
 
 .modal-form {
@@ -89,10 +89,10 @@
   transition: all 250ms linear;
 }
 
-.modal-form__input:focus {
-  border-color: #2196f3;
-  outline: none;
-}
+// .modal-form__input:focus {
+//   border-color: #2196f3;
+//   outline: none;
+// }
 
 .modal-form__input:focus + .modal-form__icon {
   fill: #2196f3;
@@ -113,7 +113,7 @@
   transform: translateY(-50%);
 
   display: block;
-  fill: black;
+
   transition: fill 250ms linear;
 }
 
@@ -169,6 +169,7 @@
 .modal-form-btn:focus {
   color: black;
   cursor: pointer;
+  background-color: yellow;
 }
 
 // .modal-form-checkbox-policy {
