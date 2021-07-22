@@ -89,14 +89,14 @@
   transition: all 250ms linear;
 }
 
-// .modal-form__input:focus {
-//   border-color: #2196f3;
-//   outline: none;
-// }
-
-.modal-form__input:focus + .modal-form__icon {
-  fill: #2196f3;
+.modal-form__input:focus {
+  border-color: #2196f3;
+  outline: none;
 }
+
+// .modal-form__input:focus + .modal-form__icon {
+//   fill: #2196f3;
+// }
 
 .modal-form__input:required:focus:not(:placeholder-shown):valid {
   border-color: green;
