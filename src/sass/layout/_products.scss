@@ -1,5 +1,6 @@
 .container__card-product {
   border-radius: 24px;
+  margin-bottom: 120px;
 }
 .container__card-product_color-one {
   background-color: #ffb8ca;
@@ -54,6 +55,7 @@
     text-align: center;
     text-transform: uppercase;
     margin-bottom: 15px;
+    padding-top: 121px;
 
     color: #ffa5ba;
   }
@@ -69,7 +71,6 @@
 
     color: #d41443;
   }
-
   .products__name {
     font-family: Titan One;
     font-weight: 400;
@@ -79,20 +80,26 @@
     letter-spacing: 0.04em;
     text-transform: uppercase;
     padding-top: 152px;
-    margin-bottom: 66px;
+    margin-bottom: 30px;
 
     color: #ffffff;
   }
   .products__name_list-markers {
-    text-align: center;
+    display: block;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 30px;
   }
-  .products__name_markers::before {
-    content: '';
+  .products__name_markers {
     width: 6px;
     height: 6px;
     border-radius: 50%;
     border: transparent;
     background-color: #ffffff;
+  }
+  .products__name_markers:not(:last-child) {
+    margin-right: 4px;
   }
   .products__description-block {
     width: 200px;
@@ -127,6 +134,7 @@
     margin: auto;
     width: 20px;
     height: 20px;
+    fill: #d41443;
   }
 }
 
@@ -135,6 +143,7 @@
     position: relative;
     width: 220px;
     height: 485px;
+    padding-bottom: 112px;
   }
   .container__card-product:not(:last-child) {
     margin-right: 20px;
@@ -163,14 +172,6 @@
     transform-origin: center;
     top: -20.6%;
   }
-
-  // .container__card-product::before {
-  //   content: '';
-  //   position: absolute;
-  //   background-image: url('../images/products/icecream-products@1x-desktop.png');
-  //   background-position: 50% 50%;
-  //   background-repeat: no-repeat;
-  // }
   .products__quality {
     font-family: Titan One;
     font-weight: 400;
@@ -179,6 +180,7 @@
     text-align: center;
     text-transform: uppercase;
     margin-bottom: 15px;
+    padding-top: 122px;
 
     color: #ffa5ba;
   }
@@ -201,9 +203,26 @@
     letter-spacing: 0.04em;
     text-transform: uppercase;
     padding-top: 152px;
-    margin-bottom: 66px;
+    margin-bottom: 30px;
 
     color: #ffffff;
+  }
+  .products__name_list-markers {
+    display: block;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 30px;
+  }
+  .products__name_markers {
+    width: 6px;
+    height: 6px;
+    border-radius: 50%;
+    border: transparent;
+    background-color: #ffffff;
+  }
+  .products__name_markers:not(:last-child) {
+    margin-right: 4px;
   }
   .products__description-block {
     overflow: hidden;
@@ -243,6 +262,7 @@
     margin: auto;
     width: 20px;
     height: 20px;
+    fill: #d41443;
   }
 }
 
@@ -250,10 +270,12 @@
   .container__card-product {
     width: 329px;
     height: 525px;
+    padding-bottom: 119px;
   }
   .container__card-product:not(:last-child) {
     margin-right: 30px;
   }
+
   .container__list-card_item-1 {
     content: '';
     position: absolute;
@@ -280,6 +302,7 @@
     letter-spacing: 0.04em;
     text-transform: uppercase;
     margin-bottom: 15px;
+    padding-top: 127px;
 
     color: #ffa5ba;
   }
@@ -302,8 +325,26 @@
     letter-spacing: 0.04em;
     text-transform: uppercase;
     padding-top: 163px;
+    margin-bottom: 32px;
 
     color: #ffffff;
+  }
+  .products__name_list-markers {
+    display: block;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 32px;
+  }
+  .products__name_markers {
+    width: 6px;
+    height: 6px;
+    border-radius: 50%;
+    border: transparent;
+    background-color: #ffffff;
+  }
+  .products__name_markers:not(:last-child) {
+    margin-right: 4px;
   }
   .products__description-block {
     width: 241px;
@@ -338,5 +379,6 @@
     margin: auto;
     width: 20px;
     height: 20px;
+    fill: #d41443;
   }
 }
