@@ -15,13 +15,8 @@
 }
 
 .hero {
-  margin-bottom: 121px;
   @media screen and (min-width: 768px) {
     background-color: var(--header-color);
-    margin-bottom: 122px;
-  }
-  @media screen and (min-width: 1280px) {
-    margin-bottom: 127px;
   }
 }
 
