@@ -34,7 +34,8 @@
         url(../images/contacts/background-pink@1x-desktop.png) 1x,
         url(../images/contacts/background-pink@2x-desktop.png) 2x
       ),
-      linear-gradient(to top, #fff5f6, #fff5f6 85%, #ffffff 85%);
+      linear-gradient(to top, #fff5f6, #fff5f6 77%, #ffffff 77%);
+
 
     background-repeat: no-repeat;
     background-position: center;
@@ -60,7 +61,7 @@
   margin-left: -20px;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 767px) {
   .locations__list {
     margin-top: -20px;
   }
