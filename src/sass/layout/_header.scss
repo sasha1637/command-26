@@ -120,14 +120,10 @@
   padding: 0;
   border: transparent;
   background-color: transparent;
-  // margin-top: 23px;
   margin-right: 28px;
   margin-left: auto;
   @media screen and (min-width: 768px) {
     margin-right: 34px;
-  }
-  &:hover, &:focus {
-    background: none;
   }
 }
 .menu-open {
@@ -140,9 +136,6 @@
   }
   @media screen and (min-width: 1280px) {
     display: none;
-  }
-  &:hover, &:focus {
-    background: none;
   }
 }
 
