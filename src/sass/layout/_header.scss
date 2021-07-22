@@ -61,6 +61,7 @@
   top: 0;
   right: 0;
   overflow: auto;
+  padding-top: 23px;
   // z-index: 15;
 
   transition: transform 750ms cubic-bezier(0.4, 0, 0.2, 1);
@@ -119,7 +120,7 @@
   padding: 0;
   border: transparent;
   background-color: transparent;
-  margin-top: 23px;
+  // margin-top: 23px;
   margin-right: 28px;
   margin-left: auto;
   @media screen and (min-width: 768px) {
