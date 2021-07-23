@@ -1,11 +1,5 @@
-//  480px, 768px, 1280px.
-
 .footer {
   background-color: var(--main-color);
-  // padding-top: 113px;
-  // @media screen and (min-width: 768px) {
-  //   padding-top: 165px;
-  // }
   padding-bottom: 32px;
   @media screen and (min-width: 768px) {
     padding-bottom: 23px;
@@ -50,18 +44,14 @@
 
 .footer-text {
   @media screen and (min-width: 320px) and (max-width: 766px) {
-    // margin-top: 113px;
   }
   @media screen and (max-width: 767px) {
-    // margin-top: 165px;
     width: 234px;
   }
   @media screen and (min-width: 768px) and (max-width: 1279px) {
-    // margin-top: 165px;
     width: 340px;
   }
   @media screen and (min-width: 1280px) {
-    // margin-top: 165px;
   }
 }
 
@@ -163,16 +153,11 @@
 
   color: var(--copyright-color);
   margin-top: 32px;
-  // padding-bottom: 32px;
-  // padding-left: 80px;
-  // padding-right: 80px;
   text-align: center;
   @media screen and (min-width: 768px) {
     margin-top: 23px;
-    // padding-bottom: 23px;
   }
   @media screen and (min-width: 1280px) {
     margin-top: 10px;
-    // padding-bottom: 10px;
   }
 }
